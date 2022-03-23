@@ -5,8 +5,8 @@
       <div class="site-logo">
         <a href="index.html" class="site-logo__link">
           <picture>
-            <source media="(max-width: 767px)" srcset="images/logo-mob.png" />
-            <source srcset="images/logo.png" />
+            <source media="(max-width: 767px)" srcset="./images/logo-mob.png" />
+            <source srcset="./images/logo.png" />
             <img class="site-logo__img" src="images/menu-logo.png" alt="logo" />
           </picture>
         </a>
@@ -44,17 +44,13 @@
                   <li class="nav__item">
                     <a href="#reviews" class="nav__link">Contacto</a>
                   </li>
-                  <li class="nav__item">
-                    <a href="admin.html" class="nav__link">Admin</a>
-                  </li>
+                  
                 </ul>
                 <!-- //nav__list -->
               </nav>
               <!-- //nav -->
             </div>
-            <div class="header-nav__info">
-              <a href="tel:9999912345678">+52 546 254 9875</a>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -119,7 +115,7 @@
                                 <div class="photo-item main-photo-item main-photo-item-2">
                                     <div class="photo-img">
                                         <div class="photo-img__block">
-                                            <img src="images/content/new-card-blaise.png" alt="main-page-2">
+                                            <img src="./images/content/new-card-blaise.png" alt="main-page-2">
                                         </div>
                                     </div>
                                     <div class="photo-info wysiwyg">
@@ -150,7 +146,7 @@
                                 <div class="dignity-title">
                                     <h3 class="h3 title">Clásico</h3>
                                     <div class="dignity-image">
-                                        <img src="images/content/icon/present-1.svg" alt="present-1">
+                                        <img src="./images/content/icon/present-1.svg" alt="present-1">
                                     </div>
                                 </div>
                                 <div class="dignity-description wysiwyg">
@@ -164,7 +160,7 @@
                                 <div class="dignity-title">
                                     <h3 class="h3 title">Cumpleaños</h3>
                                     <div class="dignity-image">
-                                        <img src="images/content/icon/present-2.svg" alt="present-2">
+                                        <img src="./images/content/icon/present-2.svg" alt="present-2">
                                     </div>
                                 </div>
                                 <div class="dignity-description wysiwyg">
@@ -178,7 +174,7 @@
                                 <div class="dignity-title">
                                     <h3 class="h3 title">Bodas</h3>
                                     <div class="dignity-image">
-                                        <img src="images/content/icon/present-3.svg" alt="present-3">
+                                        <img src="./images/content/icon/present-3.svg" alt="present-3">
                                     </div>
                                 </div>
                                 <div class="dignity-description wysiwyg">
@@ -231,7 +227,7 @@
                                 <div class="emotional-item">
                                     <div class="emotional-block">
                                         <div class="emotional-icon">
-                                            <img src="images/content/icon/present-1.svg" alt="present-4">
+                                            <img src="./images/content/icon/present-1.svg" alt="present-4">
                                         </div>
                                         <div class="emotional-info">
                                             <h3 class="h3 emotional-subtitle">Ingresa los sabores</h3>
@@ -245,7 +241,7 @@
                                 <div class="emotional-item">
                                     <div class="emotional-block">
                                         <div class="emotional-icon">
-                                            <img src="images/content/icon/present-1.svg" alt="present-5">
+                                            <img src="./images/content/icon/present-1.svg" alt="present-5">
                                         </div>
                                         <div class="emotional-info">
                                             <h3 class="h3 emotional-subtitle">Selecciona los adornos que quieras</h3>
@@ -259,7 +255,7 @@
                                 <div class="emotional-item">
                                     <div class="emotional-block">
                                         <div class="emotional-icon">
-                                            <img src="images/content/icon/subscription.svg" alt="present-6">
+                                            <img src="./images/content/icon/subscription.svg" alt="present-6">
                                         </div>
                                         <div class="emotional-info">
                                             <h3 class="h3 emotional-subtitle">Rellena el formulario para identificarte
@@ -512,7 +508,7 @@
                                                         <div class="reviews-item__column">
                                                             <div class="reviews-item__column_left">
                                                                 <div class="reviews-slider__image">
-                                                                    <img src="images/content/reviews-1.jpg"
+                                                                    <img src="./images/content/reviews-1.jpg"
                                                                         alt="reviews-1">
                                                                 </div>
                                                                 <h5 class="h5 reviews-slider__name">Blaise Pastel</h5>
@@ -617,11 +613,13 @@
 
 
 <style>
+
 @import "./css/libs.min.css";
 @import "./css/main.css";
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap");
+
 @import "./css/main.css";
+
 
 
 
