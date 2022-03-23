@@ -608,10 +608,12 @@
                     </div>
                 </div>
             </section>
+            
         </main><!-- //middle -->
 </template>
 
 
+<script src="./js/main.js"></script>
 <style>
 
 @import "./css/libs.min.css";
@@ -619,8 +621,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap");
 
 @import "./css/main.css";
-
-
-
 
 </style>
