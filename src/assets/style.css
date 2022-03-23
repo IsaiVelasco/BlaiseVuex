@@ -1,0 +1,68 @@
+
+:root {
+    --theme-primary: #FEDBD0;
+    --theme-on-primary: #442C2E;
+    --theme-secondary: #FEEAE6;
+    --theme-on-secondary: #442C2E;
+    --theme-surface: #FFFBFA;
+    --theme-on-surface: #442C2E;
+    --theme-background: #FFFFFF;
+    --theme-on-background: #442C2E;
+  }
+.color-on-primary{
+    color: var(--theme-on-primary);
+}
+.background-on-surface{
+    background-color: var(--theme-surface);
+}
+
+.navbar-custom{
+    background-color: var(--theme-primary);
+    color: var(--theme-on-primary);
+    box-shadow: 10px 5px 10px var(--theme-background);
+    
+}
+.header-custom{    
+    background-color: var(--theme-secondary);
+    color: var(--theme-on-surface);    
+    background: -webkit-linear-gradient(var(--theme-primary), var(--theme-surface)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(var(--theme-primary), var(--theme-surface)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(var(--theme-primary), var(--theme-surface)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(var(--theme-primary), var(--theme-surface)); /* Standard syntax */  
+    background-image: url('https://i.postimg.cc/ryP17qZZ/fondo-header.png'); 
+    
+    background-size: cover;
+}
+.text-italic{
+    font-style: italic;
+}
+.add-shadow{
+    box-shadow: 1px 5px 10px lightgray;
+}
+
+.add-shadow:hover{
+    box-shadow: 1px 5px 10px lightcoral;
+}
+
+.primary-button{
+    background-color: var(--theme-primary);
+    color: var(--theme-on-primary);
+}
+.primary-button:hover{
+    background-color: var(--theme-on-primary);
+    color: white;
+    box-shadow: 1px 5px 10px lightyellow;
+}
+
+.center-swit {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .label{
+      color: var(--theme-on-primary);
+  }
