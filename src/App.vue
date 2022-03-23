@@ -613,7 +613,7 @@
 </template>
 
 
-<script src="./js/main.js"></script>
+
 <style>
 
 @import "./css/libs.min.css";
