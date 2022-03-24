@@ -26,7 +26,7 @@
                     <router-link to="/" class="nav__link">Home</router-link>
                   </li>
                   <li class="nav__item">
-                    <router-link to="/about" class="nav__link" >About</router-link>
+                    <router-link to="/admin" class="nav__link" >Admin</router-link>
                   </li>
                   <li class="nav__item">
                     <router-link to="/Ordenar" class="nav__link">Ordenar</router-link>
@@ -62,7 +62,27 @@
   <router-view />
 </template>
 
-
+<script>
+  export default {
+    data: () => ({
+      
+    }),
+    mounted() {
+      let recaptchaScript = document.createElement('script')
+      recaptchaScript.setAttribute('src', 'https://code.jquery.com/jquery-3.4.1.min.js')
+      document.head.appendChild(recaptchaScript)
+      let recaptchaScript2 = document.createElement('script')
+      recaptchaScript2.setAttribute('src', 'js/libs.min.js')
+      document.head.appendChild(recaptchaScript2)
+      let recaptchaScript3 = document.createElement('script')
+      recaptchaScript3.setAttribute('src', 'js/main.js')
+      document.head.appendChild(recaptchaScript3)
+    },
+    methods: {
+      
+    }
+  }
+</script>
 
 <style>
 
