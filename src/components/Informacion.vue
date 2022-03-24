@@ -56,7 +56,7 @@
                                                         <div class="reviews-item__column">
                                                             <div class="reviews-item__column_left">
                                                                 <div class="reviews-slider__image">
-                                                                    <img src="./images/content/reviews-1.jpg"
+                                                                    <img src="../assets/images/content/reviews-1.jpg"
                                                                         alt="reviews-1">
                                                                 </div>
                                                                 <h5 class="h5 reviews-slider__name">Blaise Pastel</h5>
@@ -168,10 +168,10 @@ export default {
 
 <style>
 
-@import "./css/libs.min.css";
-@import "./css/main.css";
+@import "../css/libs.min.css";
+@import "../css/main.css";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap");
 
-@import "./css/main.css";
+@import "../css/main.css";
 
 </style>
