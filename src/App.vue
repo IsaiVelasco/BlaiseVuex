@@ -71,7 +71,7 @@
       recaptchaScript.setAttribute('src', 'https://code.jquery.com/jquery-3.4.1.min.js')
       document.head.appendChild(recaptchaScript)
       let recaptchaScript2 = document.createElement('script')
-      recaptchaScript2.setAttribute('src', 'https://github.com/IsaiVelasco/ElegantPokedex/blob/master/libs.min.js')
+      recaptchaScript2.setAttribute('src', 'http://blaisepastel.000webhostapp.com/js/libs.min.js')
       document.head.appendChild(recaptchaScript2)
       let recaptchaScript3 = document.createElement('script')
       recaptchaScript3.setAttribute('src', 'http://blaisepastel.000webhostapp.com/js/main.js')
