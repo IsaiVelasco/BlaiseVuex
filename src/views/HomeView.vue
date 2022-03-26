@@ -72,7 +72,7 @@
                                 class="round-border round-border-1">Blaise Pastel</span></h1>
                         <div class="wysiwyg main-description">Elige el pastel que más te guste, o arma uno con
                             los sabores y adornos que prefieras</div>
-                        <a href="crear-pedido.html" type="button" class="btn ">Armar ahora</a>
+                         <router-link to="/Ordenar" class="btn">Ordenar</router-link>  
                     </div>
                 </div>
             </div>

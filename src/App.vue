@@ -3,13 +3,13 @@
     <div class="container">
       <!-- logo -->
       <div class="site-logo">
-        <a href="index.html" class="site-logo__link">
+        <router-link to="/" class="site-logo__link">
           <picture>
             <source media="(max-width: 767px)" srcset="./images/logo-mob.png" />
             <source srcset="./images/logo.png" />
             <img class="site-logo__img" src="images/menu-logo.png" alt="logo" />
           </picture>
-        </a>
+        </router-link>
       </div>
       <div class="header-mobile">
         <div class="header-nav">
@@ -26,11 +26,10 @@
                     <router-link to="/" class="nav__link">Home</router-link>
                   </li>
                   <li class="nav__item">
-                    <router-link to="/admin" class="nav__link" >Admin</router-link>
-                  </li>
-                  <li class="nav__item">
                     <router-link to="/Ordenar" class="nav__link">Ordenar</router-link>
                   </li>
+                  
+                  
                   <li class="nav__item">
                     <a href="#categorias" class="nav__link">Categorías</a>
                   </li>
@@ -39,10 +38,10 @@
                   </li>
 
                   <li class="nav__item">
-                    <a href="#pasteles" class="nav__link">Pasteles</a>
+                    <a href="#reviews" class="nav__link">Contacto</a>
                   </li>
                   <li class="nav__item">
-                    <a href="#reviews" class="nav__link">Contacto</a>
+                    <router-link to="/admin" class="nav__link" >Admin</router-link>
                   </li>
                   
                 </ul>
@@ -72,10 +71,10 @@
       recaptchaScript.setAttribute('src', 'https://code.jquery.com/jquery-3.4.1.min.js')
       document.head.appendChild(recaptchaScript)
       let recaptchaScript2 = document.createElement('script')
-      recaptchaScript2.setAttribute('src', 'js/libs.min.js')
+      recaptchaScript2.setAttribute('src', 'https://github.com/IsaiVelasco/ElegantPokedex/blob/master/libs.min.js')
       document.head.appendChild(recaptchaScript2)
       let recaptchaScript3 = document.createElement('script')
-      recaptchaScript3.setAttribute('src', 'js/main.js')
+      recaptchaScript3.setAttribute('src', 'http://blaisepastel.000webhostapp.com/js/main.js')
       document.head.appendChild(recaptchaScript3)
     },
     methods: {
