@@ -15,6 +15,15 @@ export default createStore({
   getters: {
   },
   mutations: {
+    agregarPedido(state, pedido){
+      state.Pedidos.push(pedido);
+    },
+    actualizarQueso(state, mas){
+      
+      if(mas){
+        state.Queso++;
+      }else state.Queso--;
+    }
   },
   actions: {
   },
