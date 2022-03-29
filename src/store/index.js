@@ -10,7 +10,7 @@ export default createStore({
     Velas:10,
     Sarzamora:10,
     Fresas: 10,
-    Pedidos: []
+    Pedidos: [] //Arreglo de pedidos
   },
   getters: {
   },
