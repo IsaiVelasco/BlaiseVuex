@@ -23,6 +23,12 @@ export default createStore({
       if(mas){
         state.Queso++;
       }else state.Queso--;
+    },
+    actualizarCrema(state, mas){
+      
+      if(mas){
+        state.Crema++;
+      }else state.Crema--;
     }
   },
   actions: {
