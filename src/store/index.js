@@ -24,11 +24,17 @@ export default createStore({
         state.Queso++;
       }else state.Queso--;
     },
-    actualizarCrema(state, mas){
+    actualizarBatido(state, mas){
       
       if(mas){
-        state.Crema++;
-      }else state.Crema--;
+        state.Batido++;
+      }else state.Batido--;
+    },
+    actualizarFresas(state, mas){
+      
+      if(mas){
+        state.Fresas++;
+      }else state.Fresas--;
     }
   },
   actions: {
