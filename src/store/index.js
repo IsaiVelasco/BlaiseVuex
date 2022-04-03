@@ -24,6 +24,24 @@ export default createStore({
         state.Queso++;
       }else state.Queso--;
     },
+    actualizarChocolate(state, mas){
+      
+      if(mas){
+        state.Chocolate++;
+      }else state.Chocolate--;
+    },
+    actualizarVainilla(state, mas){
+      
+      if(mas){
+        state.Vainilla++;
+      }else state.Vainilla--;
+    },
+    actualizarTresLeches(state, mas){
+      
+      if(mas){
+        state.TresLeches++;
+      }else state.TresLeches--;
+    },
     actualizarBatido(state, mas){
       
       if(mas){
