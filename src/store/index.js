@@ -54,6 +54,20 @@ export default createStore({
         state.Fresas++;
       }else state.Fresas--;
     }
+    ,
+    actualizarVelas(state, mas){
+      
+      if(mas){
+        state.Velas++;
+      }else state.Velas--;
+    }
+    ,
+    actualizarSarzamora(state, mas){
+      
+      if(mas){
+        state.Sarzamora++;
+      }else state.Sarzamora--;
+    }
   },
   actions: {
   },
