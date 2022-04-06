@@ -31,14 +31,7 @@
                                                 <td><p>Sabores: Chocolate | Queso</p>                                               
                                                     <p>Adornos: Velas | Sarzamora</p> </td>
                                               </tr>
-                                              <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry Henrry</td>
-                                                <td>theBird@email.com</td>
-                                                <td>+52 134 876 49000</td>
-                                                <td><p>Sabores: Chocolate | Queso</p>                                               
-                                                    <p>Adornos: Velas | Sarzamora</p> </td>
-                                              </tr>
+                                              
                                             </tbody>
                                           </table>   
                                     </div> 
